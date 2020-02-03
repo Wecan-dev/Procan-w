@@ -820,6 +820,9 @@ textarea{
 	.services-title{
 		width: 35%;
 	}
+	.img-contact{
+		object-fit: cover;
+	}
 	.main-services__content{
 		display: grid;
 		grid-template-columns: 1fr;
@@ -1130,13 +1133,5 @@ textarea{
 	}
 	.main-about{
 		padding-top: 60px
-	}
-}
-@media  (min-width: 1601px) and (max-width: 2048px){
-	.img-opcion{
-		height: 135%;
-	}
-	.main-about{
-		padding-top: 100px;
 	}
 }
