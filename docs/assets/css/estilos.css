@@ -818,9 +818,13 @@ textarea{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 30px;
+		padding-top: 12px;
 	}
 	.img-services{
 		width: 100%;
+	}
+	.main-banner .mask .main-banner__text .main-banner__title p{
+		margin-bottom: 18px;
 	}
 	.main-services-card__body{
 		width: 100%;
@@ -884,6 +888,10 @@ textarea{
 	.about-title{
 		width: 32%;
 	}
+
+	.main-about{
+		padding-top: 18px;
+	}
 	.about-text{
 		font-size: 16px;
 		line-height: 27px;
@@ -891,6 +899,9 @@ textarea{
 	.about-img{
 		width: 100%;
 		height: 100%;
+	}
+	.main-recomendacion{
+		padding-top: 18px;
 	}
 	.title-recomendacion{
 		width: 44%;
@@ -915,6 +926,10 @@ textarea{
 	}
 	.main-team__text{
 		width: 100%;
+	}
+	.main-team{
+		padding-top: 18px;
+		padding-bottom:18px;
 	}
 	.team-card__title{
 		font-size: 17px;
@@ -1083,5 +1098,24 @@ textarea{
 	}
 	.footer-text{
 		text-align: center;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1600px){
+	.main-opciones__content{
+		padding-top: 32px;
+	}
+	.services-card__text{
+		padding: 0px 20px;
+	}
+	.main-about{
+		padding-top: 60px
+	}
+}
+@media  (min-width: 1601px) and (max-width: 2048px){
+	.img-opcion{
+		height: 135%;
+	}
+	.main-about{
+		padding-top: 100px;
 	}
 }
