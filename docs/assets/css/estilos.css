@@ -135,12 +135,16 @@ button:focus{
 }
 
 .navbar.fixed {
+
 	height: 102px;
+
 	background-color: #fff;
 	transition: .3s ease-in-out;
 	position: fixed;
 	margin-top: 0;
 	padding:0px;
+
+
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.21);
 }
 
@@ -404,7 +408,9 @@ a{
 	position: absolute;
 	text-align: right;
 	width: 100%;
+	
 	padding:0px;
+
 	margin-right: 50px;
 }
 .navbar a{
