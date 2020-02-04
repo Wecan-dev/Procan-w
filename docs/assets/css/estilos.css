@@ -136,7 +136,7 @@ button:focus{
 
 .navbar.fixed {
 
-	height: 102px;
+	height: 110px;
 
 	background-color: #fff;
 	transition: .3s ease-in-out;
@@ -605,6 +605,7 @@ a{
 .img-team{
 	width: 80%;
 	height: 200px;
+	object-fit: cover;
 }
 .main-team-card__body{
 	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
@@ -760,6 +761,15 @@ textarea{
 	font-size: 27px;
 	color: white;
 	font-weight: 800;
+
+}
+.link-numeros{
+	color: white;
+
+}
+.link-numeros:hover{
+	color: #ffcc55;
+	text-decoration: none;
 
 }
 .linea-footer{
