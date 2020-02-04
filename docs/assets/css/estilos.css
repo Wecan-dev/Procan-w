@@ -834,6 +834,10 @@ textarea{
 	.services-title{
 		width: 35%;
 	}
+	.main-team__card {
+		
+		margin: 0px 29px;
+	}
 	.img-contact{
 		object-fit: cover;
 	}
