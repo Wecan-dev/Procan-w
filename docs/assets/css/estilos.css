@@ -866,6 +866,7 @@ textarea{
 	}
 	.img-opcion{
 		height: 100%;
+		object-fit: cover;
 	}
 	.text-opciones{
 		font-size:  17px;
