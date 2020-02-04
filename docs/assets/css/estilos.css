@@ -610,7 +610,7 @@ a{
 .main-team-card__body{
 	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 	width: 80%;
-	height: 103px;
+	height: 85px;
 }
 .main-team__card{
 	height: 100%;
@@ -984,7 +984,7 @@ textarea{
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
-	
+
 	.main-contact__content{
 		display: block;
 	}
