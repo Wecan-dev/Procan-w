@@ -779,6 +779,9 @@ textarea{
 	border-top: 3px solid rgb(255, 204, 85);
 	width: 100%;
 }
+.color{
+	color: #ffcc55;
+}
 .main-footer__linea{
 	display: flex;
 	justify-content: center;
@@ -1022,6 +1025,10 @@ textarea{
 	}
 	.linea-footer{
 		width: 44%;
+	}
+	.footer-autor{
+		text-align: center;
+		font-size: 16px;
 	}
 	.main-footer__numeros{
 		text-align: center;
