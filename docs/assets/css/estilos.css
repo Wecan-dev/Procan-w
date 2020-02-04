@@ -623,11 +623,11 @@ a{
 }
 .team-card__text{
 	text-align: left;
-	font-size: 17px;
+	font-size: 16px;
 	padding: 0px 27px;
 }
 .team-card__title{
-	font-size: 21px;
+	font-size: 17px;
 	color: #ffcc55;
 	font-weight: 800;
 	margin-bottom: 0rem;
@@ -956,6 +956,7 @@ textarea{
 	}
 	.team-card__text{
 		text-align: center;
+		font-size: 14px;
 	}
 	.main-team-card__title{
 		width: 100%;
