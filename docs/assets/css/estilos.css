@@ -782,6 +782,12 @@ textarea{
 }
 .color{
 	color: #ffcc55;
+	font-weight: 800;
+}
+.color:hover{
+	color: black;
+	text-decoration: none;
+
 }
 .main-footer__linea{
 	display: flex;
@@ -835,7 +841,7 @@ textarea{
 		width: 35%;
 	}
 	.main-team__card {
-		
+
 		margin: 0px 29px;
 	}
 	.img-contact{
