@@ -836,7 +836,75 @@ textarea{
 .main-opciones{
 	position: relative;
 }
+.main-products__img{
+	width: 100%;
+}
+.img-products{
+	width: 100%;
+}
+.main-products__card{
+	margin: 0px 40px;
+}
+.main-products__body{
+
+	padding: 20px;
+	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.main-products .slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+	padding-left: 0px;
+}
+.main-products .slick-prev:before {
+	content: '\f053';
+}
+.main-products .slick-prev:before, .slick-next:before {
+	font-family: 'FontAwesome';
+	font-size: 40px;
+	line-height: 1;
+	opacity: 1.75;
+	color: #ffcc55;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.main-products .slick-next:before {
+	content: '\f054';
+}
 @media (min-width: 0px) and (max-width: 767px){
+	.main-products .slick-prev {
+		left: -3px;
+	}
+	.main-products .slick-next {
+		right: 0px;
+	}
+	.main-products .slick-next:before {
+		font-family: 'FontAwesome';
+		font-size: 30px;
+		line-height: 1;
+		opacity: 1.75;
+		color: #ffcc55;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.main-products .slick-prev:before {
+		font-family: 'FontAwesome';
+		font-size: 30px;
+		line-height: 1;
+		opacity: 1.75;
+		color: #ffcc55;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 	.services-title{
 		width: 35%;
 	}
@@ -1052,6 +1120,9 @@ textarea{
 
 }
 @media (min-width: 768px) and (max-width: 991px){
+	.main-products__card{
+		margin: 0px 15px;
+	}
 	.main-services__content{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1170,6 +1241,9 @@ textarea{
 	}
 	.main-about{
 		padding-top: 60px
+	}
+	.main-products__card{
+		margin: 0px 17px;
 	}
 }
 
